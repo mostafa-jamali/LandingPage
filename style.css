@@ -1,0 +1,307 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./assets/Font/Poppins-Regular.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+body{
+    width: 100vw;
+    height: 4300px;
+    margin: 0px;
+    /* background-color: antiquewhite; */
+    background-image: url(./assets/Oval.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 80%;
+    /* height: 2000px; */
+    margin-left: 10%;
+    /* background-color: rgb(183, 184, 184); */
+}
+.top-menu{
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.top-menu .sign-in{
+    margin-left: 70px;
+    margin-right: 0px;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 6px 12px;
+}
+.top-menu .sign-up{
+    margin-right: 0px;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 6px 12px;
+}
+.top-menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.rocky-video{
+    margin-top: 100px;
+    height: 480px;
+    display: flex;
+}
+.rocky{
+    width: 50%;
+    /* background-color: yellowgreen; */
+}
+.rocky .head{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.rocky .text{
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+}
+.rocky .Get-started{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(60, 0, 200);
+}
+.video{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.video .play{
+    position: absolute;
+    transform: translate(-190%, 150%);
+}
+.cards{
+    margin-top: 60px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.cards .card{
+    width: 20%;
+    height: 100%;
+    /* background-color: tomato; */
+}
+.cards .card .text-card{
+    color: rgb(150, 150, 150);
+}
+.cards .card .svg-card{
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 60px;
+    border: 2px solid rgb(60, 0, 200);
+    border-radius: 10px;
+}
+.cards .card .color{
+    background-color: rgb(60, 0, 200);
+}
+.cards .card .head-card{
+    font-size: 22px;
+    font-weight: 600;
+}
+.back-color{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 0 0 85% 85% / 50%;
+    background-image: linear-gradient(white, rgb(235, 230, 245));
+}
+.learn{
+    margin-top: 150px;
+    height: 500px;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.learn .learn-text{
+    width: 50%;
+    margin-top: 50px;
+}
+.learn .learn-text h2{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.learn .learn-text p{
+    font-size: 18px;
+    margin-bottom: -10px;
+    color: rgb(150, 150, 150);
+}
+
+.learn-text .botton-play{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.learn .know-more{
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    /* color: white; */
+    background-color: rgb(60, 0, 200);
+}
+.learn .watch-vido{
+    width: 110px;
+    height: 45px;
+    margin-left: 15px;
+    font-size: 15px;
+    border: none;
+    color: rgb(60, 0, 200);
+    background-color: transparent;
+}
+
+.learn .svg-playSign{
+    cursor: pointer;
+    width: 25px;
+    /* background-color: turquoise; */
+}
+.testimonal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonal h3{
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.testimonal img{
+    margin-bottom: -70px;
+}
+.testimonal .align-text{
+    text-align: center;
+}
+.testimonal h2{
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+.who-what{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: gray; */
+}
+.who-are-we{
+    display: flex;
+    width: 50%;
+}
+.who-are-we .svg{
+width: 7%;
+margin-top: 17px;
+/* background-color: violet; */
+}
+
+.who-are-we .who-text{
+    width: 70%;
+    /* background-color: turquoise; */
+}
+.who-are-we .decoration{
+    text-decoration: underline;
+}
+.who-are-we .whats-text{
+    width: 70%;
+    /* background-color: tomato; */
+}
+.our-text{
+    text-align: center;
+    margin-top: 100px;
+}
+.our-text p{
+    margin-top: -10px;
+}
+.img-div{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-div .image{
+    width: 30%;
+}
+.email{
+    height: 300px;
+    background-color: rgb(67, 43, 153);
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    background-image: url(./assets/shape1.png) ,url(./assets/shape1.png);
+    background-repeat: no-repeat , no-repeat;
+    background-position: left bottom , right top;
+    transform: none , rotate(180deg);
+}
+.email p{
+    color: white;
+    font-size: 30px;
+}
+.email .bord-input{
+    width: 500px;
+    height: 65px;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.email .bord-input input{
+    width: 420px;
+    height: 35px;
+    margin-left: 30px;
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.email .bord-input .left-border{
+    width: 70px;
+    height: 50px;
+    border-left: 1.5px solid rgb(200, 200, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    height: 300px;
+    border: 1px solid transparent;
+    border-top-color: rgb(200, 200, 200);
+    border-bottom-color: rgb(200, 200, 200);
+    display: flex;
+    /* justify-content: space-between; */
+}
+.about .text-left{
+    width: 40%;
+    align-self: center;
+    color: rgb(100, 100, 100);
+}
+.about .links{
+    width: 20%;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.about .links a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
