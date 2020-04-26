@@ -35,13 +35,14 @@ body{
     margin-left: 70px;
     margin-right: 0px;
     border-radius: 5px;
-    background-color: gray;
+    border: 1px solid white;
     padding: 6px 12px;
 }
 .top-menu .sign-up{
     margin-right: 0px;
     border-radius: 5px;
-    background-color: gray;
+    border: 1px solid black;
+    background-color: black;
     padding: 6px 12px;
 }
 .top-menu a{
@@ -136,10 +137,23 @@ body{
     font-size: 40px;
     margin-top: 0px;
 }
-.learn .learn-text p{
+.learn .learn-text .tick-text{
+    height: 250px;
+    margin-top: 0px;
+    display: flex;
+}
+.learn .learn-text .tick-text .tick-svg{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.learn .learn-text .tick-text .text{
     font-size: 18px;
-    margin-bottom: -10px;
     color: rgb(150, 150, 150);
+    margin-top: -10px;
+    margin-left: 10px;
+    line-height: 24px;
 }
 
 .learn-text .botton-play{
@@ -178,6 +192,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.testimonal .p1{
+    color: rgb(100, 100, 100);
+}
 .testimonal h3{
     font-size: 25px;
     margin-bottom: -10px;
@@ -185,8 +202,15 @@ body{
 .testimonal img{
     margin-bottom: -70px;
 }
+.testimonal .h-color{
+    color: rgb(50, 20, 20);
+}
+.testimonal .p2{
+    color: rgb(119, 0, 255);
+}
 .testimonal .align-text{
     text-align: center;
+    color: rgb(0, 110, 255);
 }
 .testimonal h2{
     margin-top: 60px;
@@ -234,6 +258,9 @@ margin-top: 17px;
 .img-div .image{
     width: 30%;
 }
+.img-div .color{
+    color: blueviolet;
+}
 .email{
     height: 300px;
     background-color: rgb(67, 43, 153);
@@ -241,14 +268,23 @@ margin-top: 17px;
     margin-top: 250px;
     margin-bottom: 250px;
     display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.email .div2{
+    height: 115px;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.background{
-    background-image: url(./assets/shape1.png) ,url(./assets/shape1.png);
-    background-repeat: no-repeat , no-repeat;
-    background-position: left bottom , right top;
-    transform: none , rotate(180deg);
+.email .div1{
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    transform: scaleY(-1);
+}
+.email .div3{
+    margin-left: 20px;
 }
 .email p{
     color: white;
